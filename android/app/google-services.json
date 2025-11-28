@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "896259964332",
+    "project_id": "rebay-project",
+    "storage_bucket": "rebay-project.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896259964332:android:966cffa254d2da041d8e09",
+        "android_client_info": {
+          "package_name": "com.example.rebay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTTVEoo3CkuyR1tFAOYXz0__GPtd5SQFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
