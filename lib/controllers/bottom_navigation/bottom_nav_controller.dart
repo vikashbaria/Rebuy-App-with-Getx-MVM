@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:rebay/views/homescreen/home_screen.dart';
 import 'package:rebay/views/likeditems/likeditems_screen.dart';
 import 'package:rebay/views/message/message_screen.dart';
 import '../../views/explore/explore_screen.dart';

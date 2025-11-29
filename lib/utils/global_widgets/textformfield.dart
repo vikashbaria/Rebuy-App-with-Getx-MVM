@@ -7,6 +7,8 @@ class CustomTextField extends StatelessWidget {
   final bool isPassword;
   final TextInputType keyboardType;
   final Function(String)? onChanged;
+  final TextStyle? hintStyle;
+  final Widget? suffixIcon;
 
   const CustomTextField({
     super.key,
@@ -15,6 +17,8 @@ class CustomTextField extends StatelessWidget {
     this.isPassword = false,
     this.keyboardType = TextInputType.text,
     this.onChanged,
+    this.hintStyle,
+    this.suffixIcon,
   });
 
   @override
@@ -32,12 +36,16 @@ class CustomTextField extends StatelessWidget {
           borderSide: BorderSide.none,
         ),
         contentPadding: EdgeInsets.symmetric(horizontal: 26, vertical: 14),
+        suffixIcon: suffixIcon,
+
         hintText: hintText,
-        hintStyle: TextStyle(
-          fontSize: 18,
-          fontWeight: FontWeight.w400,
-          color: Color(0xFF6F6F6F),
-        ),
+        hintStyle:
+            hintStyle ??
+            const TextStyle(
+              fontSize: 18,
+              fontWeight: FontWeight.w400,
+              color: Color(0xFF6F6F6F),
+            ),
       ),
     );
   }

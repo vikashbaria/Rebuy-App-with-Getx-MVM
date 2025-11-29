@@ -1,4 +1,5 @@
 import 'package:get/get_navigation/src/routes/get_route.dart';
+import 'package:rebay/views/addproduct/add_product_screen.dart';
 import 'package:rebay/views/explore/explore_screen.dart';
 import 'package:rebay/views/likeditems/likeditems_screen.dart';
 import 'package:rebay/views/loginscreen/login_screen.dart';
@@ -20,5 +21,6 @@ class AppPages {
     GetPage(name: '/listing', page: () => MyListingsScreen()),
     GetPage(name: '/liked', page: () => LikedItemsScreen()),
     GetPage(name: '/message', page: () => MessageScreen()),
+    GetPage(name: '/addproduct', page: () => AddProductScreen()),
   ];
 }
