@@ -23,11 +23,11 @@ Rebuy is a modern Flutter e-commerce application built using **GetX** for state 
 
 | Splash Screen | Login |
 |---------------|-------|
-| ![Splash Screen](assets/AppImages/Splash Screen.png) | ![Login](assets/AppImages/Login.png) |
+| ![Splash Screen](assets/AppImages/SplashScreen.png) | ![Login](assets/AppImages/Login.png) |
 
 | Sign Up | Home Page |
 |---------|-----------|
-| ![Sign Up](assets/AppImages/Sign Up.png) | ![Home Page](assets/AppImages/Home Page.png) |
+| ![Sign Up](assets/AppImages/SignUp.png) | ![Home Page](assets/AppImages/HomePage.png) |
 
 | Explorer | Listing |
 |----------|---------|
