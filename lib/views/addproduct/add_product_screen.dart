@@ -2,8 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:rebay/controllers/product_controller/product_controller.dart';
 import 'package:rebay/utils/colors.dart';
+import 'package:rebay/utils/global_widgets/global_header.dart';
+import 'package:rebay/views/homescreen/home_screen.dart';
+import 'package:rebay/views/sidebar/sidebar_screen.dart';
 import '../../models/product_model.dart';
 
+// ignore: must_be_immutable
 class AddProductScreen extends StatelessWidget {
   final ProductController c = Get.put(ProductController());
 
@@ -16,11 +20,25 @@ class AddProductScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.backgroundColor,
-      appBar: AppBar(title: Text("Add Product")),
       body: SingleChildScrollView(
-        padding: EdgeInsets.all(20),
+        padding: const EdgeInsets.only(top: 70, left: 22, right: 22),
         child: Column(
           children: [
+            GlobalHeader(
+              title: "Add Product",
+              onBackTap: () {
+                Get.offAll(() => HomeScreen());
+              },
+              rightWidgets: [
+                IconButton(
+                  onPressed: () {
+                    Get.to(SidebarPage());
+                  },
+                  icon: const Icon(Icons.menu, size: 30),
+                ),
+              ],
+            ),
+            const SizedBox(height: 20),
             TextField(
               controller: c.imageUrlController,
               decoration: InputDecoration(
@@ -115,7 +133,6 @@ class AddProductScreen extends StatelessWidget {
 
             SizedBox(height: 20),
 
-            // Save product button
             Obx(
               () => c.loading.value
                   ? CircularProgressIndicator()

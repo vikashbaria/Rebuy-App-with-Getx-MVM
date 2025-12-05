@@ -1,16 +1,58 @@
-# rebay
+# Rebuy App
 
-A new Flutter project.
+Rebuy is a modern Flutter e-commerce application built using **GetX** for state management. This app allows users to browse, add, and purchase products seamlessly, with a clean and intuitive interface.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📝 Features
 
-A few resources to get you started if this is your first Flutter project:
+- User authentication (Signup / Login)  
+- Browse and explore products  
+- Add products to catalog  
+- Like and wishlist items  
+- Messaging between users  
+- Detailed product pages  
+- Purchase form and payment integration  
+- Order confirmation  
+- User account management  
+- Sidebar navigation  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 Screenshots
+
+| Splash Screen | Login |
+|---------------|-------|
+| ![Splash Screen](assets/AppImages/Splash Screen.png) | ![Login](assets/AppImages/Login.png) |
+
+| Sign Up | Home Page |
+|---------|-----------|
+| ![Sign Up](assets/AppImages/Sign Up.png) | ![Home Page](assets/AppImages/Home Page.png) |
+
+| Explorer | Listing |
+|----------|---------|
+| ![Explorer](assets/AppImages/Explorer.png) | ![Listing](assets/AppImages/listing.png) |
+
+| Liked Item | Messages |
+|------------|----------|
+| ![Liked Item](assets/AppImages/likeditem.png) | ![Messages](assets/AppImages/messages.png) |
+
+| Sidebar | My Account Details |
+|---------|------------------|
+| ![Sidebar](assets/screenshots/sidebar.png) | ![My Account Details](assets/AppImages/myaccountdetails.png) |
+
+| Product Page | Purchase Form |
+|--------------|---------------|
+| ![Product Page](assets/AppImages/productpage.png) | ![Purchase Form](assets/screenshots/purchaseform.png) |
+
+| Payment Page | Order Confirmation |
+|--------------|------------------|
+| ![Payment Page](assets/AppImages/paymentpage.png) | ![Order Confirmation](assets/AppImages/orderconfirmation.png) |
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/rebuy-flutter-app.git

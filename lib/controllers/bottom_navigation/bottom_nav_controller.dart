@@ -18,4 +18,8 @@ class BottomNavController extends GetxController {
   void changeIndex(int index) {
     selectedIndex.value = index;
   }
+
+  void goToPage(int index) {
+    selectedIndex.value = index;
+  }
 }

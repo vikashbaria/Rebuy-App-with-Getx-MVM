@@ -7,7 +7,8 @@ Widget buildIcon(IconData icon, int index) {
   return Obx(() {
     bool isSelected = bottomController.selectedIndex.value == index;
     return Container(
-      padding: EdgeInsets.all(4),
+      margin: EdgeInsets.zero,
+      padding: EdgeInsets.zero,
       decoration: isSelected
           ? BoxDecoration(
               color: Color.fromRGBO(8, 126, 139, 1),

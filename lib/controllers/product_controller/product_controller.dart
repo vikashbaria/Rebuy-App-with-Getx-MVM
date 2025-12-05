@@ -17,20 +17,17 @@ class ProductController extends GetxController {
   final descriptionController = TextEditingController();
   final imageUrlController = TextEditingController();
 
-  // For URL-only images
   var imageUrls = <String>[].obs;
 
-  // Image picker
   final picker = ImagePicker();
 
-  // Pick multiple images from device
   Future<void> pickImages() async {
     try {
       final picked = await picker.pickMultiImage();
       if (picked != null && picked.isNotEmpty) {
         imageUrls.clear();
         for (var img in picked) {
-          imageUrls.add(img.path); // store local paths temporarily
+          imageUrls.add(img.path);
         }
       }
     } catch (e) {
@@ -73,7 +70,6 @@ class ProductController extends GetxController {
         backgroundColor: Colors.green,
       );
 
-      // Only clear image URLs after product is added, not immediately
       imageUrls.clear();
     } catch (e) {
       Get.snackbar("Error", "Failed to add product: $e");
@@ -82,7 +78,6 @@ class ProductController extends GetxController {
     }
   }
 
-  // Reset all text fields
   void resetFields() {
     nameController.clear();
     priceController.clear();

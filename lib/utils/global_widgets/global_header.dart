@@ -41,13 +41,13 @@ class GlobalHeader extends StatelessWidget {
         : SizedBox(width: 40);
 
     Widget titleWidget = Padding(
-      padding: const EdgeInsets.only(left: 40),
+      padding: const EdgeInsets.only(left: 20),
       child: Text(
         title,
         style: TextStyle(
-          fontFamily: AppFonts.primaryFont,
+          fontFamily: AppFonts.secondaryFont,
           fontWeight: FontWeight.w800,
-          fontSize: 32,
+          fontSize: 30,
           color: AppColors.fontcolor,
         ),
         overflow: TextOverflow.ellipsis,
