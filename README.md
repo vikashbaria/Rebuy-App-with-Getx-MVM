@@ -39,11 +39,11 @@ Rebuy is a modern Flutter e-commerce application built using **GetX** for state 
 
 | Sidebar | My Account Details |
 |---------|------------------|
-| ![Sidebar](assets/screenshots/sidebar.png) | ![My Account Details](assets/AppImages/myaccountdetails.png) |
+| ![Sidebar](assets/AppImages/sidebar.png) | ![My Account Details](assets/AppImages/myaccountdetails.png) |
 
 | Product Page | Purchase Form |
 |--------------|---------------|
-| ![Product Page](assets/AppImages/productpage.png) | ![Purchase Form](assets/screenshots/purchaseform.png) |
+| ![Product Page](assets/AppImages/productpage.png) | ![Purchase Form](assets/AppImages/purchaseform.png) |
 
 | Payment Page | Order Confirmation |
 |--------------|------------------|
